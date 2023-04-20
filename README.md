@@ -44,3 +44,12 @@ we are labeling HEAD to C3, who is the parent.
 With the tilde, we can label the HEAD with an ancestor. For example, if we got the C4->C3->C2->C1 and the HEAD is on C4, we can use **git checkout HEAD~3**
 and HEAD moves to C1. Also, with **git branch -f <branch> HEAD** we can force the branch to move to the current HEAD or the parent/ancestor with adding the tilde.
 
+## Level 8: Reversing changes in git
+
+### Reset
+
+With reset, we can reverse the commit locally. **git reset HEAD~1** reverse the last commit.
+
+### Reverse
+
+The reverse command, reverse the commit pushed and create a new one that shows that the commit is reversed. Example: **git reverse HEAD**.

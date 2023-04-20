@@ -59,3 +59,8 @@ The reverse command, reverse the commit pushed and create a new one that shows t
 With command cherry-pick we can copy some commits of multiple branchs to main. For example, **git cherry-pick C3 C4** generates a copy of the C3 and C4 commits
 in the main branch.
 
+## Level 10: Interactive rebase intro
+
+With rebase, we can copy commits without knowing then. For example, using **git rebase -i HEAD~3**, it appear an UI with the three commits and we can reorder and omit
+any commit we want.
+

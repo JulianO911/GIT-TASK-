@@ -64,3 +64,6 @@ in the main branch.
 With rebase, we can copy commits without knowing then. For example, using **git rebase -i HEAD~3**, it appear an UI with the three commits and we can reorder and omit
 any commit we want.
 
+## Level 11: Grabbing just 1 commit
+
+We need to copy one commit from a branch to main. We can use cherry-pick or rebase.

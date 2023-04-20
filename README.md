@@ -53,3 +53,9 @@ With reset, we can reverse the commit locally. **git reset HEAD~1** reverse the 
 ### Reverse
 
 The reverse command, reverse the commit pushed and create a new one that shows that the commit is reversed. Example: **git reverse HEAD**.
+
+## Level 9: Cherry-pick Intro
+
+With command cherry-pick we can copy some commits of multiple branchs to main. For example, **git cherry-pick C3 C4** generates a copy of the C3 and C4 commits
+in the main branch.
+

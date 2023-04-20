@@ -23,3 +23,9 @@ After create the bugFix branch, i went back to the main branch and merged the bu
 ### Git rebase command
 
 This command help us to merge the commits made in a branch to a top branch. For example, i can merge the commits in bugFix to main with git *rebase main*.
+
+## Level 5: Detach yo' HEAD
+
+### HEAD
+
+HEAD label shows what are the current commit in the branch. Using *git checkout "the commit"* we can attach HEAD to any commit in the branch.
